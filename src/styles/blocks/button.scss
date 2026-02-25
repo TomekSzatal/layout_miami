@@ -8,4 +8,16 @@
   height: 56px;
   line-height: 56px;
   font-weight: 700;
+
+  &--primary {
+    background: #0075ff;
+    box-shadow: 0 6px 23px rgba(0, 117, 255, 0.46);
+    border-radius: 8px;
+    color: white;
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 14px;
+  }
 }
