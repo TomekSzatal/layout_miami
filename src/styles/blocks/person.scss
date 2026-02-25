@@ -1,9 +1,41 @@
-.person{
+.person {
   &__photo {
     width: 175px;
     height: 175px;
     object-fit: cover;
     border-radius: 50%;
     object-position: top;
+    display: block;
+    margin: 0 auto;
+  }
+
+  &__name {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+    color: #0075ff;
+  }
+
+  &__role {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 27px;
+    text-align: center;
+    color: #9FADC2;
+  }
+
+  &__description {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 27px;
+    text-align: center;
+    color: #3e3e3e;
   }
 }
