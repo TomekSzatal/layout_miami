@@ -1,0 +1,9 @@
+.person{
+  &__photo {
+    width: 175px;
+    height: 175px;
+    object-fit: cover;
+    border-radius: 50%;
+    object-position: top;
+  }
+}
