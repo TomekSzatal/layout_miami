@@ -4,4 +4,38 @@
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+
+  &__links {
+    margin-bottom: 40px;
+  }
+
+  &__paragraph {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 16px;
+    color: #fff;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-bottom: 16px;
+  }
+
+  &__link {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 16px;
+    color: #fff;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding-bottom: 8px;
+    border-bottom: 1px solid white;
+
+    &:hover {
+      border-bottom: 1px solid transparent;
+    }
+  }
 }
