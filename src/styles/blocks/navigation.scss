@@ -1,0 +1,11 @@
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 25px;
+  align-items: center;
+
+  &__logo {
+    width: 76px;
+    height: auto;
+  }
+}
