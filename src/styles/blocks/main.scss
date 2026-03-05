@@ -4,10 +4,11 @@
   padding: 60px 20px;
   font-family: Poppins, sans-serif;
   font-weight: 500;
-  font-style: normal;
-  font-size: 14px;
+  font-style: medium;
+  font-size: 23px;
   line-height: 140%;
-  color: #3e3e3e;
+  letter-spacing: 0;
+  color: #fff;
   background: rgba(29, 29, 29, 1);
 
   @include for-ipad {
@@ -21,7 +22,7 @@
   @include grid;
 
   &__title {
-    margin-bottom: 48px;
+    margin-bottom: 32px;
     grid-column: 1 / 3;
 
     @include for-ipad {
@@ -42,21 +43,6 @@
 
     @include for-desktop {
       grid-column: 6 / 12;
-    }
-  }
-
-  &__paragraph {
-    margin-bottom: 32px;
-    &--highlight {
-      color: #0075ff;
-      font-weight: 700;
-      font-size: 18px;
-      margin-bottom: 16px;
-    }
-
-    &--bold {
-      font-weight: 700;
-      margin-bottom: 0;
     }
   }
 
