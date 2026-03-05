@@ -11,6 +11,12 @@
   }
 }
 
+@mixin for-ipad {
+  @media (min-width: 744px) {
+    @content;
+  }
+}
+
 @mixin grid {
   display: grid;
   justify-content: center;

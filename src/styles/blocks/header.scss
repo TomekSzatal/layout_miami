@@ -5,7 +5,7 @@
   background-image: url('../images/photos/header-background.jpg');
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;
+  background-position: calc(100% + 50px) center;
   min-height: 100vh;
   padding: 0 20px 88px;
   box-sizing: border-box;
