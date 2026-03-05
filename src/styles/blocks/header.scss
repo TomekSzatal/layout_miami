@@ -12,11 +12,11 @@
   grid-template-rows: 1fr 1fr;
 
   @include for-ipad {
-    background-position: center
+    background-position: center;
   }
 
   @include for-desktop {
-    background-position: center
+    background-position: center;
   }
 
   @include grid;
@@ -35,6 +35,10 @@
     align-self: end;
     grid-column: 1 / 3;
     grid-row: 2 / 3;
+
+    @include for-ipad {
+      grid-column: 1 / 7;
+    }
 
     @include for-desktop {
       grid-column: 1 / 13;
