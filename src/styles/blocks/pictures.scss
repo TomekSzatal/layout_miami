@@ -11,9 +11,20 @@
     position: relative;
     padding-top: 100%;
 
+    @include for-ipad {
+      padding-top: 187px;
+
+      &--big {
+        grid-column: span 4;
+      }
+
+      &--small {
+        grid-column: span 2;
+      }
+    }
+
     @include for-desktop {
-      padding-top: 256px;
-      grid-column: span 6;
+      padding-top: 320px;
 
       &--big {
         grid-column: span 8;
@@ -31,6 +42,5 @@
     height: 100%;
     position: absolute;
     object-fit: cover;
-    border-radius: 8px;
   }
 }
