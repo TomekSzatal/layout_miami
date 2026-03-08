@@ -1,9 +1,9 @@
 @use '../utils/mixins' as *;
 
-.people {
+.bikes {
   @include grid;
 
-  &__person {
+  &__bike {
     margin-bottom: 48px;
     grid-column: span 2;
 
