@@ -2,12 +2,17 @@
 
 .cross {
   &__icon {
-    width: 16px;
-    height: 16px;
+    width: 24px;
+    height: 24px;
+
+    @include for-ipad {
+      width: 32px;
+      height: 32px;
+    }
 
     @include for-desktop {
-      width: 21px;
-      height: 21px;
+      width: 32px;
+      height: 32px;
     }
   }
 }
