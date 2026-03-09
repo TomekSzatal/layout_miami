@@ -1,6 +1,7 @@
 @use '../utils/mixins' as *;
 
 .article {
+
   &__title {
     font-family: Poppins, sans-serif;
     font-weight: 700;
@@ -26,6 +27,7 @@
 
     @include for-desktop {
       margin-bottom: 48px;
+      max-width: 66%;
     }
   }
 }
