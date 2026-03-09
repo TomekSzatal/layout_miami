@@ -2,11 +2,16 @@
 
 .logo {
   &__image {
-    height: 46px;
+    height: 38px;
     width: auto;
 
+    @include for-ipad {
+      height: 56px;
+      width: auto;
+    }
+
     @include for-desktop {
-      height: 76px;
+      height: 56px;
       width: auto;
     }
   }

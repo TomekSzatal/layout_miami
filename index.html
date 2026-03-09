@@ -6,7 +6,7 @@
       name="viewport"
       content="width=device-width, initial-scale=1.0"
     />
-    <title>Miami</title>
+    <title>MyBike</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link
       rel="preconnect"
@@ -26,18 +26,28 @@
   <body>
     <header class="header" id="home">
       <nav class="navigation header__navigation">
-        <a class="burger navigation__item" href="#menu"><span class="burger__label">Open menu</span></a>
-        <a class="logo navigation__item"  href="#">
-          <img src="src/images/logo.png" alt="Miami logo"
-          class="logo__image">
-        </a>
-        <a class="phone navigation__item" href="tel:+1 234 555-55-55">
-          <span class="phone__label">+1 234 555-55-55</span><img
+        <div>
+          <a class="logo navigation__item"  href="#">
+            <img src="src/images/logo.svg" alt="Miami logo"
+            class="logo__image">
+          </a>
+        </div>
+        <div>
+          <a class="phone navigation__item" href="tel:+1 234 555-55-55">
+            <span class="phone__label">+1 234 555-55-55</span><img
             class="phone__icon"
             src="src/images/phone.svg"
             alt="phone"
-          >
-        </a>
+           >
+          </a>
+          <a class="burger navigation__item" href="#menu">
+            <span class="phone__label"></span><img
+            class="burger__icon"
+            src="src/images/menu.svg"
+            alt="menu"
+           >
+          </a>
+        </div>
       </nav>
       <h1 class="title header__title">
         Take the Streets
@@ -46,6 +56,12 @@
 
     <div class="menu" id="menu">
       <nav class="navigation menu__navigation">
+        <a class="logo navigation__item"  href="#">
+          <img
+            class="logo__image"
+            src="src/images/logo.svg"
+            alt="Miami logo">
+        </a>
         <a
           class="cross"
           href="#home"
@@ -56,13 +72,6 @@
             alt="menu"
           >
         </a>
-        <a class="logo navigation__item"  href="#">
-          <img
-            class="logo__image"
-            src="src/images/logo.png"
-            alt="Miami logo">
-        </a>
-        <a class="navigation__item--hidden" href="#"><img src="src/images/phone.svg" alt="phone"></a>
       </nav>
       <nav class="links menu__links">
         <ul class="links__list">
